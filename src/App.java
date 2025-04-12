@@ -13,6 +13,12 @@ public class App {
         
         realStudent.getName();
         realStudent.addCredits(3);
+
+        //Labclass testing.
+        LabClass StudentInClass= new LabClass();
+
+        StudentInClass.enrollStudent(realStudent);
+        StudentInClass.printList();
     }
     
 }
